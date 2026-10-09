@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 import asyncio
-import ollama
 from ollama import AsyncClient
 
 app = FastAPI()
