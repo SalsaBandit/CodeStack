@@ -23,7 +23,7 @@ async def chat(inp):
 
   print("")
 
-# chunking logic
+# chunking and file upload logic
 file = open("docu.md", "r", encoding="utf-8")
 content = file.read()
 
